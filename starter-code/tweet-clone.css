@@ -1,0 +1,83 @@
+body {
+  background: rgb(244, 248, 249);
+  color: rgb(0, 0, 0);
+  font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+  padding-top: 5px;
+  padding-left: 10px;
+  font-size: 28px;
+}
+
+.tweet {
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(225, 232, 237);
+  border-radius: 8px;
+  padding: 40px;
+  width: 920px;
+  height: 230px;
+}
+
+.profilePicture {
+  float: left;
+}
+
+.profileInfo {
+  margin-left: 30px;
+  float: left;
+  vertical-align: middle;
+}
+
+.accountInfo {
+  font-weight: bold;
+
+}
+
+.userAccount {
+  margin-top: 5px;
+  color: rgb(104, 109, 129);
+}
+
+.followButton {
+  color: rgb(85, 172, 238);
+  border: 2px solid rgb(85, 172, 238);
+  border-radius: 8px;
+  float: right;
+  padding: 15px 25px;
+
+}
+
+.followButton a {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(85, 172, 238);
+}
+
+.followButton img {
+  vertical-align: middle;
+}
+
+.tweetBody {
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tweetText {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+time {
+  color: rgb(101, 116, 127);
+}
+
+.tweetFooter a {
+  margin-top: 10px;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.tweetFooter span {
+  color: rgb(105, 120, 130);
+  vertical-align: text-bottom;
+  margin-left: 10px;
+}
